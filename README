@@ -1,0 +1,41 @@
+=============================================================
+EZNCoder
+=============================================================
+
+
+=============================================================
+Sumário
+=============================================================
+EZNCoder é um script escrito em Python, que facilita a adição
+de legendas .srt em vídeos .avi. Permite a operação em lote,
+utilizando um bitrate próximo ao do arquivo original, evitando
+desperdício de espaço em disco e perda de qualidade.
+
+O EZNCoder é publicado sob a licença GPL v3.
+
+
+=============================================================
+Requisitos:
+=============================================================
+* python >= 2.6.6
+* mediainfo >= 0.7.41-0.0
+
+=============================================================
+Instalação:
+=============================================================
+Basta copiar os arquivos para a pasta de sua preferência e rodar 
+o comando:
+$chmod +x ezncoder.py
+
+=============================================================
+Modo de utilizar:
+=============================================================
+Nomeie os vídeos e as legendas no esquema:
+file1.avi file1.srt
+file2.avi file2.srt
+de forma que coincidam os nomes dos vídeos com as respectivas
+legendas.
+Após isso, rode o comando:
+$python <caminho para a pasta do script>/ezncoder.py
+
+=============================================================
