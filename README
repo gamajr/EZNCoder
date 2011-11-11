@@ -31,12 +31,18 @@ $chmod +x ezncoder.py
 =============================================================
 Modo de utilizar:
 =============================================================
+Para incorporação de legendas:
 Nomeie os vídeos e as legendas no esquema:
 file1.avi file1.srt
 file2.avi file2.srt
 de forma que coincidam os nomes dos vídeos com as respectivas
 legendas.
 Após isso, rode o comando:
-$python <caminho para a pasta do script>/ezncoder.py
+$python <caminho para a pasta do script>/ezncoder.py <arg>
+
+Para <arg> use>
+sub - incorpora legendas.
+wmv2avi - converte wmv para avi.
+avixvid - converte para XVid 4.
 
 =============================================================
